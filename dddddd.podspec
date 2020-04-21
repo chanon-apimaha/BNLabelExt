@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "dddddd"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of dddddd. "
   s.homepage     = 'https://github.com/chanon-apimaha'
   s.license      = 'MIT'
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.framework  = 'UIKit'
   s.requires_arc = true
  
-  s.source_files = 'dddddd/**/*'
+  s.source_files = '**/*'
 
 end

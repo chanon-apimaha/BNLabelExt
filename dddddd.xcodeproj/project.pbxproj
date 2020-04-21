@@ -16,8 +16,8 @@
 		8BF040C0244EB37B004B1676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF040BE244EB37B004B1676 /* LaunchScreen.storyboard */; };
 		8BF040CB244EB37B004B1676 /* ddddddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF040CA244EB37B004B1676 /* ddddddTests.swift */; };
 		8BF040D6244EB37B004B1676 /* ddddddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF040D5244EB37B004B1676 /* ddddddUITests.swift */; };
-		8BF040E6244EB5F3004B1676 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF040E5244EB5F3004B1676 /* UILabelExt.swift */; };
 		8BF040E8244EB787004B1676 /* dddddd.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8BF040E7244EB787004B1676 /* dddddd.podspec */; };
+		8BF04126244EC9FD004B1676 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF04125244EC9FD004B1676 /* UILabelExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		8BF040D5244EB37B004B1676 /* ddddddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddddddUITests.swift; sourceTree = "<group>"; };
 		8BF040D7244EB37B004B1676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF040E3244EB4DF004B1676 /* dddddd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dddddd.entitlements; sourceTree = "<group>"; };
-		8BF040E5244EB5F3004B1676 /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
 		8BF040E7244EB787004B1676 /* dddddd.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dddddd.podspec; sourceTree = "<group>"; };
+		8BF04125244EC9FD004B1676 /* UILabelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +107,7 @@
 		8BF040AF244EB37A004B1676 /* dddddd */ = {
 			isa = PBXGroup;
 			children = (
+				8BF04125244EC9FD004B1676 /* UILabelExt.swift */,
 				8BF040E4244EB589004B1676 /* Source */,
 				8BF040E3244EB4DF004B1676 /* dddddd.entitlements */,
 				8BF040B0244EB37A004B1676 /* AppDelegate.swift */,
@@ -142,7 +143,6 @@
 		8BF040E4244EB589004B1676 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8BF040E5244EB5F3004B1676 /* UILabelExt.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 			files = (
 				8BF040B5244EB37A004B1676 /* ViewController.swift in Sources */,
 				8BF040B1244EB37A004B1676 /* AppDelegate.swift in Sources */,
-				8BF040E6244EB5F3004B1676 /* UILabelExt.swift in Sources */,
+				8BF04126244EC9FD004B1676 /* UILabelExt.swift in Sources */,
 				8BF040B3244EB37A004B1676 /* SceneDelegate.swift in Sources */,
 				8BF040BB244EB37A004B1676 /* dddddd.xcdatamodeld in Sources */,
 			);
@@ -464,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = bbtv.dddddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -485,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = bbtv.dddddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
