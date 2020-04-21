@@ -18,8 +18,6 @@
 		8BF040D6244EB37B004B1676 /* ddddddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF040D5244EB37B004B1676 /* ddddddUITests.swift */; };
 		8BF040E8244EB787004B1676 /* dddddd.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8BF040E7244EB787004B1676 /* dddddd.podspec */; };
 		8BF04126244EC9FD004B1676 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF04125244EC9FD004B1676 /* UILabelExt.swift */; };
-		8BF04131244EE4DC004B1676 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 8BF0412F244EE4DC004B1676 /* Classes */; };
-		8BF04132244EE4DC004B1676 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF04130244EE4DC004B1676 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +56,6 @@
 		8BF040E3244EB4DF004B1676 /* dddddd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dddddd.entitlements; sourceTree = "<group>"; };
 		8BF040E7244EB787004B1676 /* dddddd.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dddddd.podspec; sourceTree = "<group>"; };
 		8BF04125244EC9FD004B1676 /* UILabelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = SOURCE_ROOT; };
-		8BF0412F244EE4DC004B1676 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
-		8BF04130244EE4DC004B1676 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +107,8 @@
 		8BF040AF244EB37A004B1676 /* dddddd */ = {
 			isa = PBXGroup;
 			children = (
-				8BF04130244EE4DC004B1676 /* Assets */,
-				8BF0412F244EE4DC004B1676 /* Classes */,
+				8BF04135244EE5BA004B1676 /* Classes */,
+				8BF04134244EE598004B1676 /* Assets */,
 				8BF04125244EC9FD004B1676 /* UILabelExt.swift */,
 				8BF040E3244EB4DF004B1676 /* dddddd.entitlements */,
 				8BF040B0244EB37A004B1676 /* AppDelegate.swift */,
@@ -143,6 +139,20 @@
 				8BF040D7244EB37B004B1676 /* Info.plist */,
 			);
 			path = ddddddUITests;
+			sourceTree = "<group>";
+		};
+		8BF04134244EE598004B1676 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8BF04135244EE5BA004B1676 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF040C0244EB37B004B1676 /* LaunchScreen.storyboard in Resources */,
-				8BF04132244EE4DC004B1676 /* Assets in Resources */,
 				8BF040BD244EB37B004B1676 /* Assets.xcassets in Resources */,
-				8BF04131244EE4DC004B1676 /* Classes in Resources */,
 				8BF040E8244EB787004B1676 /* dddddd.podspec in Resources */,
 				8BF040B8244EB37A004B1676 /* Main.storyboard in Resources */,
 			);
@@ -464,7 +472,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = bbtv.dddddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -485,7 +493,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = bbtv.dddddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
